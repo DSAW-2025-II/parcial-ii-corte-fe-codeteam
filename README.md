@@ -1,16 +1,17 @@
-#Marcado
--Nombre: Diego Alejandro Gómez Papagayo -ID-Universitario: 0000336260 -Correo: diegogopa@unisabana.edu.co
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/PzXEPZ_E)
+## Marcado
+-Nombre: Diego Alejandro Gómez Papagayo
+-ID-Universitario: 0000336260
+-Correo: diegogopa@unisabana.edu.co
 
--Nombre: Sara Santacruz Corredor -ID-Universitario: 0000320782 -Correo: sarasaco@unisabana.edu.co
-
-#DESPLIEGUE BACKEND
+-Nombre: Sara Santacruz Corredor
+-ID-Universitario: 0000320782
+-Correo: sarasaco@unisabana.edu.co
+## DESPLIEGUE BACKEND
 https://parcial-ii-corte-be-codeteam-12.onrender.com/
 
-#DESPLIEGUE FRONTEND
+## DESPLIEGUE FRONTEND
 https://parcial-ii-corte-fe-codeteam.vercel.app/
-
-
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/PzXEPZ_E)
 # 📝 Enunciado del examen
 
 Vas a construir una **arquitectura de tres capas**:

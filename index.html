@@ -4,30 +4,51 @@
     <meta charset = "UTF-8">
     <meta name = "viewport" content="width=device-width, initial-scale=1.0">
     <title>Parcial Corte 2</title>
-    <link rel = "stylesheet" href="styles.css">
+
+    <!--CSS externo-->
+    <link rel = "stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="container">
+        <h1>Pokédex 🔍</h1>
 
-    <button id = "loginButton">Login</button>
+        <!--Login-->
+        <div class = "login-poke" id = "loginPoke">
+            <button class = "login-Button" id = "loginButton">Login</button>
+            <div id = "Status"></div>
+        </div>
 
-    <div class = "search">
-        <button id = "searchButton">Buscar</button>
-        <input type = "text" id = "pokeInput" placeholder="Escribe el nombre del Pokémon">  
+        <!--Search-->
+        <div class = "search" id = "searchPoke">
+            <div class = "design-search">
+                <label for = "pokemonName"> Añade el nombre del Pokemon a buscar: </label>
+                <input type = "text" id = "pokemonName" placeholder="Escribe el nombre del Pokémon">
+            </div>
+            <button id = "searchButton">Buscar</button>
+        </div>
+
+        <!--Result-->
+        <div class = "result-poke" id = "resultPoke">
+            <h2 id = "resultTitle">Resultado de la búsqueda:</h2>
+            <img id = "pokemonImage" src = "" alt = "Imagen del Pokémon" style="display:none;">
+            <div class="info-poke">
+            <ul>
+                <li><strong>Nombre:</strong> <span id="pokemonNameR"></span></li>
+                <li><strong>Especie:</strong> <span id="pokemonSpeciesR"></span></li>
+                <li><strong>Peso:</strong> <span id="pokemonWeightR"></span></li>
+            </ul>
+            <div id="message"></div>
+            </div>
+        </div>
+
+        <!--Error-->
+        <div class = "error" id = "errorPoke">
+            Ups! Pokémon no encontrado
+        </div>
     </div>
-
-    <div class="pokemon-card" id="pokemonCard" style="display:none;">
-        <p id="message"></p>
-        <img id="pokemonImage" style="display:none;">
-        <p id="pokemonName"></p>
-        <p id="pokemonSpecies"></p>
-        <p id="pokemonWeight"></p>
-    </div>
-
-    <p id="message"></p>
-    </div>
-
+        
+    <!--JS externo-->
     <script src="app.js"></script>
 </body>
 </html>

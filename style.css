@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #ffcb05, #3b4cca);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    text-align: center;
+}
+
+
+h1 {
+    margin-bottom: 20px;
+    color: #3b4cca;
+    text-shadow: 1px 1px #ffcb05;
+}
+
+button {
+    padding: 12px 20px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 12px;
+    font-size: 1rem;
+    cursor: pointer;
+    background: #3b4cca;
+    color: white;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #2a2a9c;
+}
+
+button:disabled {
+    background: #888;
+    cursor: not-allowed;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin-top: 10px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    width: 100%;
+    font-size: 1rem;
+    outline: none;
+    transition: 0.3s;
+}
+
+input[type="text"]:focus {
+    border-color: #3b4cca;
+    box-shadow: 0px 0px 5px #3b4cca;
+}
+
+
+.login-poke,
+.search,
+.result-poke,
+.error {
+    display: none;
+    margin-top: 20px;
+}
+
+
+.active {
+    display: block;
+}
+
+
+#loginPoke {
+    display: block;
+}
+
+
+.result-poke img {
+    width: 150px;
+    height: 150px;
+    margin: 15px 0;
+}
+
+
+.info-poke ul {
+    list-style: none;
+    padding: 0;
+}
+
+.info-poke li {
+    background: #f4f4f4;
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 10px
+}

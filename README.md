@@ -11,6 +11,7 @@
 https://parcial-ii-corte-be-codeteam-12.onrender.com/
 
 ## DESPLIEGUE FRONTEND
+https://parcial-ii-corte-fe-codeteam-gykw.vercel.app/
 
 # 📝 Enunciado del examen
 

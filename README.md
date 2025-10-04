@@ -11,7 +11,7 @@
 https://parcial-ii-corte-be-codeteam-12.onrender.com/
 
 ## DESPLIEGUE FRONTEND
-https://parcial-ii-corte-fe-codeteam.vercel.app/
+
 # 📝 Enunciado del examen
 
 Vas a construir una **arquitectura de tres capas**:

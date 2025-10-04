@@ -1,72 +1,103 @@
 body {
-  font-family: Arial, sans-serif;
-  background: #f7f7f7;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  margin: 0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #ffcb05, #3b4cca);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 .container {
-  background: #fff;
-  padding: 20px 30px;
-  border-radius: 10px;
-  box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
-  text-align: center;
-  width: 350px;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    text-align: center;
 }
+
 
 h1 {
-  font-size: 22px;
-  margin-bottom: 20px;
+    margin-bottom: 20px;
+    color: #3b4cca;
+    text-shadow: 1px 1px #ffcb05;
 }
 
-.search-section {
-  margin-top: 15px;
-}
-
-#pokeInput {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-/* Botones */
 button {
-  background: #007bff;
-  color: white;
-  border: none;
-  padding: 10px 15px;
-  margin: 5px;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 14px;
+    padding: 12px 20px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 12px;
+    font-size: 1rem;
+    cursor: pointer;
+    background: #3b4cca;
+    color: white;
+    transition: 0.3s;
 }
 
 button:hover {
-  background: #0056b3;
+    background: #2a2a9c;
 }
 
-/* Tarjeta del Pokémon */
-.pokemon-card {
-  margin-top: 20px;
-  padding: 15px;
-  border-radius: 10px;
-  background: #f1f1f1;
-  box-shadow: 0px 3px 8px rgba(0,0,0,0.1);
-  display: none; /* por defecto oculta */
+button:disabled {
+    background: #888;
+    cursor: not-allowed;
 }
 
-.pokemon-card img {
-  max-width: 150px;
-  margin-bottom: 10px;
+input[type="text"] {
+    padding: 10px;
+    margin-top: 10px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    width: 100%;
+    font-size: 1rem;
+    outline: none;
+    transition: 0.3s;
 }
 
-#message {
-  color: red;
-  font-weight: bold;
-  margin-top: 10px;
+input[type="text"]:focus {
+    border-color: #3b4cca;
+    box-shadow: 0px 0px 5px #3b4cca;
+}
+
+
+.login-poke,
+.search,
+.result-poke,
+.error {
+    display: none;
+    margin-top: 20px;
+}
+
+
+.active {
+    display: block;
+}
+
+
+#loginPoke {
+    display: block;
+}
+
+
+.result-poke img {
+    width: 150px;
+    height: 150px;
+    margin: 15px 0;
+}
+
+
+.info-poke ul {
+    list-style: none;
+    padding: 0;
+}
+
+.info-poke li {
+    background: #f4f4f4;
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 10px
 }
